@@ -20,3 +20,18 @@ Details on how to setup the project.
 5. Make a virutal environment `virtualenv venv`.
 6. Activate the new virtual environment `source venv/bin/activate` or Windows `source venv/Scripts/activate`.
 7. Install all dependencies `pip install -r requirements.txt`.
+
+### Development Setup
+
+#### Initial Setup
+`export FLASK_APP=main`
+`export FLASK_APP=development`
+or
+`set FLASK_APP=main`
+`set FLASK_APP=development`
+
+#### RUN Application
+`flask run` and navigate to `http://127.0.0.1:5000/`
+
+## Documentation
+To get more help on the Flask go check out the [Flask Documentation](https://flask.palletsprojects.com/en/2.0.x/) or [DevDocs](https://devdocs.io/flask~2.0/)
