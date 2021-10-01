@@ -15,7 +15,7 @@ Details on how to setup the project.
 ### Environment Setup
 1. Install Virtualenv `pip install virtualenv`.
 2. Verify python version is 3.9.7 `python --version`.
-3. Clone this repository to your desired destination `git clone https://github.com/moesaifan99/argoai_ru.git`.
+3. Clone this repository to your desired destination `git clone https://github.com/n-man13/argoai_run.git`.
 4. Check out your workspace branch `git checkout firstname-ws`.
 5. Make a virutal environment `virtualenv venv`.
 6. Activate the new virtual environment `source venv/bin/activate` or Windows `source venv/Scripts/activate`.
