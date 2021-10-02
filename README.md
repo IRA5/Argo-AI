@@ -24,11 +24,11 @@ Details on how to setup the project.
 ### Development Setup
 
 #### Initial Setup
-`export FLASK_APP=main`
-`export FLASK_APP=development`
+`export FLASK_ENV=main`
+`export FLASK_ENV=development`
 or
-`set FLASK_APP=main`
-`set FLASK_APP=development`
+`set FLASK_ENV=main`
+`set FLASK_ENV=development`
 
 #### RUN Application
 `flask run` and navigate to `http://127.0.0.1:5000/`
