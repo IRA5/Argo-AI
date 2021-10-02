@@ -24,10 +24,10 @@ Details on how to setup the project.
 ### Development Setup
 
 #### Initial Setup
-`export FLASK_ENV=main`
+`export FLASK_APP=main`
 `export FLASK_ENV=development`
 or
-`set FLASK_ENV=main`
+`set FLASK_APP=main`
 `set FLASK_ENV=development`
 
 #### RUN Application
