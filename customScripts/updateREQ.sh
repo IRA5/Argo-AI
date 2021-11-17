@@ -1,1 +1,1 @@
-pip freeze > ../requirements.txt
+sudo pip freeze > ../requirements.txt
