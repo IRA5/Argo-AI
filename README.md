@@ -17,13 +17,13 @@ Details on how to setup the project.
 2. Navigate to Desktop `cd Desktop`
 3. Get Python 3.8.1. tar file `sudo wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tar.xz`
 4. Extract tar file `tar xf Python-3.8.1.tar.xz`
-5. Navigate to extracted folder `cd python-3.8.1`
+5. Navigate to extracted folder `cd Python-3.8.1`
 6. Create a make file `sudo ./configure --enable-optimizations`
 7. Build and Install Python `sudo make install`
 
 ### Environment Setup
-1. Verify python version is 3.8.1 `python --version`.
-2. Install Virtualenv `pip install virtualenv`.
+1. Verify python version is 3.8.1 `python3.8 --version`.
+2. Install Virtualenv `pip install virtualenv` or `pip3 install virtualenv`.
 3. Clone this repository to your desired destination `git clone https://github.com/moesaifan99/argoai_ru.git`.
 4. Check out your workspace branch `git checkout "branchName"`.
 5. Make a virutal environment `virtualenv -p python3.8 venv`.
